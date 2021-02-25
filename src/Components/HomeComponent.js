@@ -23,7 +23,7 @@ class Home extends Component {
                         </Form>
                     </div>
                     
-                    <div className="col-md border mb-3">
+                    <div className="col-md-8 border mb-3">
                         <div className="row">
                             <div className="col-md-6 mt-3">
                                 <h3 className="ml-2">History</h3>

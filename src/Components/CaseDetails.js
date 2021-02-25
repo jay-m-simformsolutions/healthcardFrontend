@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { Table } from 'reactstrap';
+import { DoctorCases, PatientCases } from '../Actions';
 
 function CaseDetails() {
+    const dispatch = useDispatch();
+    useEffect(() => {
+        //dispatch(PatientCases())
+        dispatch(DoctorCases())
+        console.log('data');
+    })
     return (
         <div>
             <Table striped hover>
